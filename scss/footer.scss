@@ -1,0 +1,100 @@
+.foot-wrapper {
+    height: 465px;
+    width: 100%;
+    background-color: peru;
+footer {
+
+    .bop {
+        height: 50px;
+    }
+    height: 455px;
+    background-color: #ee4367;
+    .logo{
+        position: relative;
+        width: 92px;
+        height: 42px;
+        border: solid 2px #ffffff;
+        font-family: GillSansBold;
+        font-size: 35px;
+        margin: auto;
+        span {
+            position: absolute;
+            bottom: -5px;
+            color: #ffffff;
+        }
+    }
+
+    .phone {
+        color: #ffffff;
+        font-family: GillSansBold;
+        text-align: center;
+        padding-top: 50px;
+        font-size: 20px;
+    }
+
+    .signup {
+        position: relative;
+        height: 60px;
+        display: flex;
+        text-align: center;
+        margin: auto;
+
+        input {
+            width: 529px;
+            height: 100%;
+            background-color: #f56b88;
+            border: none;
+            color: rgba(238, 67, 103, 1);
+            font-size: 16px;
+            margin: auto;
+            margin-left: 500px;
+        }
+
+        ::placeholder {
+            color: rgba(238, 67, 103, 1);
+            opacity: 1;
+            font-family: GillSansBold;
+        }
+
+        .button {
+        width: 167px;
+        background-color: #ffffff;
+        padding-top: 20px;
+        font-family: GillSansBold;
+        color: #EE4367;
+        margin: auto;
+        padding-bottom: 20px;
+        margin-right: 467px;
+        }
+     }   
+     .social {
+        height: 31px;
+        width: 31px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffffff;
+        align-items: center;
+        float: left;
+        margin-left: 100px;
+     }
+     .copy{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        color: #F7A1B3;
+        font-family: GillSansBold;
+        padding-top: 50px;
+    }    
+}
+}
+
+
+@media only all and (max-width: 980px) {
+    .foot-wrapper {
+        footer {
+            padding: 0 30px;
+
+        }
+
+    }
+}

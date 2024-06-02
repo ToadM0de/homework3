@@ -1,0 +1,75 @@
+.upcoming-events {
+  background-color: #540D6E;
+  color: #ffffff;
+  padding: 40 40px;
+}
+.upcoming-events .title {
+  height: 85.5px;
+  width: 392px;
+  border-bottom: solid 2px #ffffff;
+  padding-top: 40px;
+  font-family: GillSansBold;
+}
+.upcoming-events .title h1 {
+  font-size: 25px;
+}
+.upcoming-events .events {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: GillSansBold;
+}
+.upcoming-events .events .event {
+  width: 210px;
+  height: 124px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: GillSansBold;
+}
+.upcoming-events .events .event .date {
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: GillSansBold;
+}
+.upcoming-events .events .event .event-detail {
+  width: -39px;
+  font-family: GillSansBold;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.upcoming-events .events .event .highlight {
+  font-family: GillSansBold;
+  font-size: 20px;
+}
+.upcoming-events .events .event .details {
+  color: #EE4367;
+  font-family: GillSansBold;
+  font-size: 15px;
+}
+
+@media (max-width: 1140px) {
+  .upcoming-events .events {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 210px;
+    margin: 50px auto;
+  }
+}
